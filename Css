@@ -1,0 +1,380 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Container{
+  width: 95%;
+  margin: 0 auto;
+}
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
+.Header{
+  width: 100%;
+  text-align: center;
+  color: snow;
+}
+.S1{
+  height: 40px;
+  background-color: rgb(39, 38, 38);
+  outline: solid 1px rgb(115, 113, 113);
+}
+.L{ 
+  width:10%;
+  display: inline-block;
+}
+.Logo{
+  width:100%;
+  height: 2.4em;
+  display: inline-block;
+  position: relative;
+  left: 3em;
+}
+.S1C1{
+  float: left;
+  position: relative;
+  left: 5em;
+  padding: 0.6em;
+  outline: solid 1px rgb(115, 113, 113);
+}
+.Subscribe{
+  float: right;
+  position: relative;
+  right: 8.5em;
+  font-size: 15px;
+  padding:0.1em;
+  outline: solid 1px rgb(115, 113, 113);
+}
+.Search{
+  float: right;
+}
+.simg{
+  position: relative;
+  left: 5.3em;
+  width: 2.5em;
+  outline: solid 1px rgb(115, 113, 113);
+}
+.S2{
+  height: 400px;
+  background-color: rgb(12, 12, 12);
+}
+.S2C1{
+  width: 100%;
+  height: 35px;
+  background-color: rgb(91, 89, 89);
+  outline: solid 1px rgb(115, 113, 113);
+  position: relative;
+}
+.S2C1 a{
+  text-decoration: none;
+  padding: 1em;
+  color: snow;
+}
+.Others a{
+  position:relative;
+  top: 0.5em;
+  left:8em;
+}
+.News{
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: -1.5em;
+  left:13em;
+}
+.NewsI{
+  position: relative;
+  top: 2em;
+}
+.Newsi{
+  width: 8em;
+  display:none;
+  position: absolute;
+  top: 3.5em;
+  z-index: 2;
+  left: -1.5em;
+}
+.Daily{
+  position:absolute;
+  left: 8em;
+}
+.Today{
+  position: relative;
+}
+.Today:hover .Daily{
+  opacity: 100%;
+}
+.Newsi a{
+  background-color: rgb(91, 89, 89);
+  outline: solid 1px rgb(115, 113, 113);
+  padding: 12px 16px;
+  display: block;
+  color: black;
+  text-align: center;
+}
+.Newsi a:hover{
+  background-color: rgb(107, 78, 161);
+  color: snow;
+}
+.News:hover .Newsi{
+  display: block;
+}
+.Comics{
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: -1.5em;
+  left: 13.5em;
+}
+.ComicsI{
+  position: relative;
+  top: 2em;
+}
+.Comicsi{
+  width: 8em;
+  display:none;
+  position: absolute;
+  top: 3.5em;
+  z-index: 2;
+  left: -1em;
+}
+.Comicsi a{
+  background-color: rgb(91, 89, 89);
+  outline: solid 1px rgb(115, 113, 113);
+  padding: 12px 16px;
+  display: block;
+  color: black;
+  text-align: center;
+}
+.Comicsi a:hover{
+  background-color: rgb(107, 78, 161);
+  color: snow;
+}
+.Comics:hover .Comicsi{
+  display: block;
+}
+.Characters{
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: -1.5em;
+  left:14em;
+}
+.CharactersI{
+  position: relative;
+  top: 2em;
+}
+.Charactersi{
+  width: 8em;
+  display:none;
+  position: absolute;
+  top: 3.5em;
+  z-index: 2;
+  left:0.5em;
+}
+.Charactersi a{
+  background-color: rgb(91, 89, 89);
+  outline: solid 1px rgb(115, 113, 113);
+  padding: 12px 16px;
+  display: block;
+  color: black;
+  text-align: center;
+}
+.Charactersi a:hover{
+  background-color: rgb(107, 78, 161);
+  color: snow;
+}
+.Characters:hover .Charactersi{
+  display: block;
+}
+.Movies{
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: -1.5em;
+  left: 15em;
+}
+.MoviesI{
+  position: relative;
+  top: 2em;
+}
+.Moviesi{
+  width: 8em;
+  display:none;
+  position: absolute;
+  top: 3.5em;
+  z-index: 2;
+  left: -0.8em;
+}
+.Moviesi a{
+  background-color: rgb(91, 89, 89);
+  outline: solid 1px rgb(115, 113, 113);
+  padding: 12px 16px;
+  display: block;
+  color: black;
+  text-align: center;
+}
+.Moviesi a:hover{
+  background-color: rgb(107, 78, 161);
+  color: snow;
+}
+.Movies:hover .Moviesi{
+  display: block;
+}
+.S2C2{
+  width: 100%;
+  height: 35px;
+  background-color: rgb(91, 89, 89);
+  outline: solid 1px rgb(115, 113, 113);
+  text-align: center;
+  position: relative;
+}
+.S2C2 p{
+  display: inline-block;
+  position: relative;
+  top: -0.5em;
+}
+.disney{
+  width: 10%;
+  height: 1.8em;
+  display: inline-block;
+  position: relative;
+  top: 0.3em;
+}
+.S2C3
+{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(13, 12, 12);
+  display: flex;
+  position: relative;
+}
+.S2C31
+{
+  width:100%;
+  height: 400px;
+  display: block;
+  position: relative;
+}
+.S2C31 img
+{
+  width: 100%;
+  height: 100%;
+  
+  }
+.S2C32
+{
+  width: 100%; 
+  color: rgb(231, 231, 239);
+  text-align: center;
+  position:absolute;
+  z-index:1;
+}
+.S2C32 p
+{
+  display: inline;
+  position: relative;
+  right: 2em;
+  top: 8em;
+  }
+.S2C3B{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(28, 28, 28);
+}
+.S2C33
+{
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+.S2C33 img{
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+}
+.S2C4
+{
+  margin: 0 auto;
+  background-color: rgb(249, 251, 253); 
+  width: 80%;
+  position: relative;
+  top: -3em;
+  border:solid snow 1em;
+  height: 350px;
+}
+.S2R1{
+  width:16.6%;
+  display: inline-block;
+  height: 400px;
+  color: black;
+}
+.S2R1:hover{
+  position: relative;
+  top: -0.5em;
+}
+.S2R2{
+  width: 16%;
+  display: inline-block;
+  height: 400px;
+  color: black;
+}
+.S2R2:hover{
+  position: relative;
+  top: -0.5em;
+}
+.S2R3{
+  width: 16%;
+  display: inline-block;
+  height: 400px;
+  color: black;
+}
+.S2R3:hover{
+  position: relative;
+  top: -0.5em;
+}
+.S2R4{
+  width: 16%;
+  display: inline-block;
+  height: 400px;
+  color: black;
+}
+.S2R4:hover{
+  position: relative;
+  top: -0.5em;
+}
+.S2R5{
+  width: 16%;
+  display: inline-block;
+  height: 400px;
+  color: black;
+}
+.S2R5:hover{
+  position: relative;
+  top: -0.5em;
+}
+.S2R6{
+  width: 16.6%;
+  display: inline-block;
+  height: 400px;
+  color: black;
+}
+.S2R6:hover{
+  position: relative;
+  top: -0.5em;
+}
+.img{
+  width: 95%;
+  height: 60%;
+}
+.S2C5{
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+.S2C5 img{
+  width: 100%;
+  height: 400px;
+}
